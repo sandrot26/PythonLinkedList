@@ -61,14 +61,14 @@ class LinkedList:
                 else:
                     Current = Current.Next
             
-            DeleteNode = Current.Next
-            Current.Next = DeleteNode.Next 
+            DeletedNode = Current.Next
+            Current.Next = DeletedNode.Next
         
         #restar longitud de la lista.
         self.Size -= 1
 
         #retornar nodo eliminado.
-        return DeleteNode
+        return DeletedNode
                 
     #Devuelve longitud de la lista.                
     def __len__(self):

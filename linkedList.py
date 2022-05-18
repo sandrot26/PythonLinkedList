@@ -8,3 +8,7 @@ Productos.Append('Jamon')
 Productos.Append('Queso')
 
 print(Productos)
+
+Productos.Remove('Pan')
+
+print(Productos)
