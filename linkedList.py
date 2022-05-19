@@ -76,7 +76,7 @@ class LinkedList:
         self.Size -= 1
 
         #retornar nodo eliminado.
-        return DeletedNode
+        return Current
                 
     #Devuelve longitud de la lista.                
     def __len__(self):
