@@ -50,22 +50,27 @@ class LinkedList:
     #Funcion para eliminar valor de la linkedlist.
     def Remove(self, Value):
         #se determina que si la longitud de la lista es 0, regrese el valor de falso
-        
+        MyNode = Node(Value)
+
         if self.Size == 0:
-            return False
+            return print('Elemento no encontrado. La lista esta vacia')
 
         else:
             Current = self.First
             #Si el Valor es diferente a lo que buscamos, seguira avanzando.
+
+            if Current.Value == Value:
+                self.First = Current.Next
+                return print('Valor elminado y en la primera posicion')
             
             try:
                 while Current.Next.Value != Value:
                     Current = Current.Next
                     DeletedNode = Current.Next
                     Current.Next = DeletedNode.Next
-
-            except AttributeError:
-                return False
+            
+            except:
+                return print('Valor no encontrado')
 
         #restar longitud de la lista.
         self.Size -= 1
