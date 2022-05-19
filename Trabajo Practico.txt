@@ -1,0 +1,39 @@
+Trabajo Práctico – Clases y Objetos - Unittest
+
+Para todos los problemas:
+
+    • Leer atentamente el enunciado.
+    • Resolverlo manualmente con lápiz y papel.
+    • Seleccionar datos de prueba de los que conozcan el resultado. Los datos de prueba deben probar
+    todas las opciones.
+    • Realizar una (o más) Clases para resolver el cada ejercicio.
+    • Realizar un programa que le pida los datos al usuario, cree los objetos correspondientes con los datos
+    suministrados por el usuario.
+    • Probarlo con los datos de prueba.
+    • Realizar un conjunto de pruebas para cada método de cada ejercicio con el módulo unittest.
+
+1) Implementar Linked List con objetos. Cada nodo de la Linked List debe almacenar un dato, este puede ser
+un int, un float, un string o del tipo que deseen. Se deben crear, como mínimo, los siguientes métodos los
+para trabajar con los datos. Pueden implementar métodos adicionales si lo necesitan o desean.
+
+NOTA: No pueden utilizar una lista como estructura de datos, es decir no se pueden guardar todos los
+datos en una lista que se utiliza como una Linked List.
+
+    • Agregar (dato) -> None: Agrega un nuevo dato a la Linked List. Se puede agregar al inicio, al final
+    de la lista o, si se desea, agregarla de forma que la Linked List quede ordenada.
+    • Buscar (dato) -> Bool: Busca un dato en la Linked List. Si el dato está, devuelve True, sino, False.
+    Alternativamente la función puede devolver el nodo que contiene el dato buscado.
+    • Borrar (dato) -> None: Elimina un nodo de la Linked List que contiene el dato suministrado.
+    • Listar () -> list[dato]: Devuelve una lista con todos los datos de la Linked List.
+    
+2) Implementar Binary Tree con objetos. Cada nodo del Binary Tree debe almacenar un dato, este puede ser
+un int, un float, un string o de cualquier tipo que implemente los métodos < y > (mayor y menor). Se deben
+crear, como mínimo, los siguientes métodos los para trabajar con los datos. Pueden implementar métodos
+adicionales si lo necesitan o desean.
+
+    • Agregar (dato) -> None: Agrega un nuevo dato al Binary Tree. Se debe agregar de forma que el
+    Binary Tree quede ordenado.
+    • Buscar (dato) -> Bool: Busca un dato en la Binary Tree. Si el dato está, devuelve True, sino, False.
+    • Alternativamente la función puede devolver el nodo que contiene el dato buscado.
+    Borrar (dato) -> None: Elimina un nodo de la Binary Tree que contiene el dato suministrado.
+    • Listar () -> list[dato]: Devuelve una lista con todos los datos de la Binary Tree ordenados.
